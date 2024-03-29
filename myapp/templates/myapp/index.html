@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Home Page</h1>
+    <form method="post">
+        {% csrf_token %}
+        <div>
+            <label>Enter your Word</label>
+            <input type="text" name="user_answer_1" required>
+        </div>
+        div>
+            <label>Enter your Word</label>
+            <input type="text" name="user_answer_2" required>
+        </div>
+        
+        div>
+            <label>Enter your Word</label>
+            <input type="text" name="user_answer_3" required>
+        </div>
+        <input type="submit" value="SUBMIT">
+        
+    </form>
+    
+</body>
+</html>
